@@ -1,3 +1,72 @@
+/* This is the main style of the page. */
 body {
   font-family: Courier;
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: center;
+  background-color: #CCC;
+}
+
+/* input and input:hover define behavior and appearance of text and password 
+ * input elements */
+input[type=text], input[type=password] {
+  font-family: Courier;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 3px;
+  outline: blue;
+  background-color: #EEE;
+  transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #FFF;
+  box-shadow: 0px 0px 16px #AAF;
+}
+
+/* This deals with the appearance of buttons */
+button {
+  background-color: #EEE;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out
+}
+
+button:hover {
+  background-color: #DDD;
+  cursor: hover;
+  box-shadow: 3px 3px 5px;
+}
+
+/* The following 4 definitions are for the website sidebar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30ch;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-color: #eee;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+li a:hover {
+  background-color: #AAA;
+}
+
+.active {
+  background-color: #999;
 }
