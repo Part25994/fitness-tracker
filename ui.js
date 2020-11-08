@@ -1,10 +1,14 @@
 // YOU EYE DOT JAY ESS
 
-let elements = document.getElementById('ui-root');
+var root = document.getElementById('ui-root')
+console.log(root)
 let presets = {
   challenge: {
     1: {},
     setup: function() {
+      this.i = 0
+      root.innerHTML = ""
+      root.addChild(this[this.i])
     }
   }
 }
