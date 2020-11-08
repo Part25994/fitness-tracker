@@ -1,6 +1,6 @@
 /* This is the main style of the page. */
 body {
-  font-family: Courier;
+  font-family: Courier New;
   font-weight: bold;
   font-size: 14pt;
   text-align: center;
@@ -10,7 +10,7 @@ body {
 /* input and input:hover define behavior and appearance of text and password 
  * input elements */
 input[type=text], input[type=password] {
-  font-family: Courier;
+  font-family: Courier New;
   width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
