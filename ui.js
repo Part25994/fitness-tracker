@@ -15,5 +15,5 @@ let presets = {
 
 function loadPreset(pst) {
   let preset = presets[pst]
-  preset.setup(elements)
+  preset.setup()
 }
