@@ -7,6 +7,7 @@ let presets = {
       <p>Select a Friend</p>
       <button onclick="friend">Mega Chad</button>
       <button onclick="friend">Jane</button>
+      <button onclick="friend">Superhero15</button>
     `,
     // stage 2: challenge selection
     2: ``,
