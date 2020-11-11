@@ -1,14 +1,25 @@
 // YOU EYE DOT JAY ESS
 
-var root = document.getElementById('ui-root')
-console.log(root)
 let presets = {
   challenge: {
-    1: {},
+    // stage 1: friend selection
+    1: `
+      <p>Select a Friend</p>
+      <button onclick="friend">Mega Chad</button>
+      <button onclick="friend">Jane</button>
+    `,
+    // stage 2: challenge selection
+    2: ``,
+    // stage 3: confirmation
+    3: ``,
     setup: function() {
-      this.i = 0
+      this.i = 1
+      let root = document.getElementById("ui-root")
       root.innerHTML = ""
-      root.addChild(this[this.i])
+      root.innerHTML = this[this.i]
+      let onclick = function() {
+        
+      }
     }
   }
 }
