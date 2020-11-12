@@ -11,12 +11,12 @@ let presets = {
     `,
     // stage 2: challenge selection
     2: `
- 
+     <ul>
      <li><button onclick="challenge">Most pushups in a minute</button></li>
      <li><button onclick="challenge">Most situps in a minute</button></li>
      <li><button onclick="challenge">Most steps in a day</button></li>
      <li><button onclick="challenge">most steps in a week</button></li>
-     <li><button onclick="challenge">Most burpees in a minute</button></li>
+     <li><button onclick="challenge">Most burpees in a minute</button></li></ul>
      <input type="text">Other</input>
 `,
     // stage 3: confirmation
