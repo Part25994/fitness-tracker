@@ -5,6 +5,7 @@ body {
   font-size: 14pt;
   text-align: center;
   background-color: #CCC;
+  color: red;
 }
 
 /* input and input:hover define behavior and appearance of text and password 
@@ -93,4 +94,6 @@ h1 {
   text-align: center;
   margin-top: 60px;
   padding: 14px 16px;
+}
+img{
 }
