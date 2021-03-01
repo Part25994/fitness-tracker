@@ -96,4 +96,7 @@ h1 {
   padding: 14px 16px;
 }
 img{
+  border: thick;
+  border-color: black;
+  
 }
